@@ -104,6 +104,6 @@ dist
 .tern-port
 
 #Other files
-package-lock.json
 test.js
 test.ts
+/lib
