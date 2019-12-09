@@ -1,6 +1,6 @@
-import { SatoJSONRPCClient } from '../lib';
+import { SatoClient } from '../src';
 
-var satoClient = new SatoJSONRPCClient('username', 'API_KEY');
+var satoClient = new SatoClient('username', 'API_KEY');
 
 // place buy order in DASH/BTC market
 // satoClient

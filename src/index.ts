@@ -2,11 +2,12 @@ import axios from 'axios';
 import { sha256 } from 'js-sha256';
 import * as jsonrpc from 'jsonrpc-lite';
 
-export class SatoJSONRPCClient {
-  public apiUrl: string = 'http://satoex.local/api/v2/';
+export class SatoClient {
+  public apiUrl: string = 'https://www.satoexchange.com/api/v2/';
   private username: string;
   private id: number;
   private apiKey: string;
+
   constructor(username: string, apiKey: string) {
     this.username = username;
     this.apiKey = apiKey;
