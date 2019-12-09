@@ -1,6 +1,6 @@
 SatoExchange Private Account API
 (Last Updated: 1 Dec 2019)
-
+Full documentation on https://www.satoexchange.com/api#account_api
 
 INTRODUCTION
 
